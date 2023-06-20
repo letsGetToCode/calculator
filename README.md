@@ -7,9 +7,9 @@
 
 ## Project 🖥️
 
-This is a web project I created to trains my HTML and CSS skills.
+This is a web project I created to train my HTML and CSS skills.
 
-The challenge was to create an calculator app mimiquing the Apple Macbook's calculator app appereance. Also, when I developed the project I had no Javascript knowledge, so I decide to not use Javascript power the project.
+The challenge was to create an calculator app mimicking the Apple Macbook's calculator app appereance. Also, when I developed the project I had no Javascript knowledge, so I decide not to use JavaScript in it.
 
 ## Technologies 🚀
 This project have uses the folowing technologies:
