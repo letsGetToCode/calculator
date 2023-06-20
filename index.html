@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Calculadora</title>
+	<link rel="stylesheet" type="text/css" href="calculadora2.css">
+</head>
+<body>
+	
+	<div id="container">
+		<div id="b-container">
+			<span class="r">x</span>
+			<span class="y">-</span>
+			<span class="">+</span>
+		</div>
+
+		<form name="calculadora" style="clear:both;">
+			<input type="text" id="resposta">
+			<input type="button" value="AC" id="clear" onclick="calculadora.resposta.value ='' "class="button-a">
+			<input type="button" value="+/-" id="clear" onclick="calculadora.resposta.value ='' " class="button-a">
+			<input type="button" value="%" onclick="calculadora.resposta.value +='%' " class="button-a">
+			<input type="button" value="/" onclick="calculadora.resposta.value+='/' " class="button-b"><br>
+
+			<input type="button" value="7" onclick="calculadora.resposta.value +='7' " class="button">
+			<input type="button" value="8" onclick="calculadora.resposta.value +='8' " class="button">
+			<input type="button" value="9" onclick="calculadora.resposta.value +='9' " class="button">
+			<input type="button" value="*" id="clear" onclick="calculadora.resposta.value+='*' " class="button-b"><br>
+
+			<input type="button" value="4" onclick="calculadora.resposta.value +='4' " class="button">
+			<input type="button" value="5" onclick="calculadora.resposta.value += '5' " class="button">
+			<input type="button" value="6" onclick="calculadora.resposta.value +='6'" class="button">
+			<input type="button" value="-" onclick="calculadora.resposta.value +='-' " class="button-b"><br>
+
+			<input type="button"  value="1" onclick="calculadora.resposta.value +='1' " class="button">
+			<input type="button" value="2" onclick="calculadora.resposta.value +='2' " class="button">
+			<input type="button" value="3" onclick="calculadora.resposta.value +='3' " class="button">
+			<input type="button" value="+" onclick="calculadora.resposta.value +='+' " class="button-b"><br>
+
+			<input type="button"  value="0" onclick="calculadora.resposta.value +='0' " class="button-c">
+			<input type="button" value="." onclick="calculadora.resposta.value +='.' " class="button">
+			<input type="button" value="=" onclick="calculadora.resposta.value =eval(calculadora.resposta.value)" class="button-b border-radius">
+		</form>
+
+	</div>
+
+</body>
+</html>

@@ -1,0 +1,117 @@
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: rgb(131,58,180);
+	background: linear-gradient(90deg, #efd5ff 0%, #515ada 100%);	
+	font-family: sans-serif;
+	font-size: 1.1em;
+}
+
+#container{ border: 2px ridge black;
+	width: 250px;
+	height: 400px;
+	margin: 100px auto;
+	border-radius: 10px;
+}
+
+#b-container{
+	background-color: rgba(98, 88, 66, 1.0);
+	border-radius: 10px 10px 0 0;
+}
+
+span{
+	display:inline-block;
+	width:12px;
+	height: 12px;	
+	border:1px solid black;
+	border-radius: 12px;
+	color: black;
+	background: rgba(51, 209, 48);
+	opacity: 0.3;
+	font-size: 0.5em;
+	text-align: center;
+	margin-left: 5px;
+	line-height:12px;
+	text-indent: -2000px;
+}
+
+span:hover{
+	text-indent: 0;
+	cursor:default;
+	opacity: 1;
+}
+
+.r{
+	background-color: rgb(245, 65, 75);
+}
+
+.y{
+	background-color: rgb(246, 193, 41);
+}
+
+#resposta{border: none;
+	width: 100%;
+	height: 100px;
+	background-color: rgba(98, 88, 66, 1.0);
+	color: #fff;
+	font-size: 3em;
+	text-align: right;
+}
+
+input{
+	width: 62.5px;
+	height: 56px;
+	margin: 0;
+	float: left;
+	border-radius: none;
+	font-size: 1.3em;
+	color: white;
+	border:1px solid black;
+}
+
+.button{
+	display:inline-block;
+	text-align: center;
+	background-color: rgb(103,105,84);
+	opacity: 0.9;
+	color: black;
+
+}
+
+.button-a{
+	background-color: rgb(77, 76, 58);
+	opacity:0.8;
+	color: black;
+}
+
+.button-b{
+	background-color: rgb(245, 149, 20);
+	opacity: 0.8;
+	color: black;
+}
+
+.button-c{
+	width: 125px;
+	background-color: rgb(103,105,84);
+	border-radius: 0 0 0 10px;
+	opacity:0.9;
+	color: black;
+}
+
+.button:hover, .button-a:hover, .button-b:hover, .button-c:hover{
+	opacity: 1;
+	color: white;
+}
+
+.border-radius{
+	border-radius: 0 0 10px 0;
+}
+
+
+
+
+
